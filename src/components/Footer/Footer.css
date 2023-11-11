@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts-start */
+@font-face {
+    font-family: Inter;
+    src: url('../../assets/Fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* fonts-end */
+
+/* Footer css start */
+.footerPage {
+    display: flex;
+    padding: 72px 182px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: var(--gray-50, #F5F7FA);
+}
+
+.footerContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.logoContent {
+    display: flex;
+    width: 416px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.LogoWithDescription {
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.LogoWithDescription p {
+    color: var(--gray-700, #3A4D5A);
+    /* S-24/Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.logoContent .Copyright {
+    color: var(--gray-700, #3A4D5A);
+
+    /* XS/Regular */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 52px;
+}
+
+.footerLinkContent h1 {
+    color: var(--gray-900, #141D24);
+
+    /* M-24/Semibold */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 16px;
+    /* 150% */
+}
+.footerContent ul a{
+    text-decoration: none;
+}
+.footerContent ul a li {
+    color: var(--gray-700, #3A4D5A);
+    /* S-24/Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    list-style: none;
+    padding-top:8px ;
+}
+
+
+/* Footer css end */

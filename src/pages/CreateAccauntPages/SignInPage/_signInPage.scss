@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fonts-start */
+@font-face {
+    font-family: Inter;
+    src: url('../../../assets/Fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* fonts-end */
+.createAccountContent {
+    display: grid;
+    grid-template-columns: 1fr auto;
+
+    // .leftsideWithImage {
+    //     img {
+    //         width: 100%;
+    //     }
+    // }
+}
+
+.creatAccleftsideWithImage {
+    background-image: url('../Images/LeftSideImage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rightSideWIthCreateAccContent {
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 1fr 1fr 0.5fr;
+
+
+    .touristaLogo {
+        display: flex;
+        width: 732px;
+        padding: 36px 72px;
+        align-items: center;
+        gap: 195px;
+
+    }
+
+    .createAccountPlace {
+        display: flex;
+        width: 732px;
+        padding: 120px 0px 36px 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+        .placeWhereCreateAcc {
+            display: flex;
+            width: 512px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 36px;
+
+            h1 {
+                color: var(--gray-900, #141D24);
+
+                /* XXL-48/Semibold */
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 48px;
+                /* 200% */
+            }
+
+            form {
+                display: flex;
+                width: 512px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 24px;
+
+                .emailInputInformation {
+                    display: flex;
+                    width: 512px;
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    label {
+                        display: flex;
+                        padding: 16px 0px 8px 0px;
+                        align-items: center;
+                        align-self: stretch;
+                        color: var(--gray-900, #141D24);
+
+                        /* M-24/Regular */
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        /* 150% */
+                    }
+
+                    input {
+                        display: flex;
+                        padding: 12px 16px;
+                        align-items: center;
+                        gap: 8px;
+                        align-self: stretch;
+                        border-radius: 10px;
+                        border: 1px solid var(--gray-100, #E3E7EB);
+                        background: var(--primary-white, #FFF);
+                        // font
+                        color: var(--gray-400, #788795);
+
+                        /* M-24/Regular */
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        /* 150% */
+                    }
+                }
+
+                .resetBtn {
+
+
+                    button {
+                        cursor: pointer;
+                        display: flex;
+                        width: 512px;
+                        padding: 12px 24px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 8px;
+                        border-radius: 24px;
+                        background: var(--violet-500, #4A21EF);
+                        color: var(--primary-white, #FFF);
+
+                        /* M-24/Semibold */
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 24px;
+                        /* 150% */
+                        border: 0px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .logInPlaceWithApp {
+        display: flex;
+        width: 732px;
+        padding: 36px 8px;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+
+        .logInWithApp {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+
+
+            p {
+                color: var(--gray-300, #97A5B2);
+
+                /* S-24/Regular */
+                font-family: Inter;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                /* 171.429% */
+            }
+
+            .applicationsContent {
+                display: flex;
+                align-items: flex-start;
+                gap: 16px;
+
+                button {
+                    display: flex;
+                    width: 160px;
+                    padding: 12px 16px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8px;
+                    border-radius: 72px;
+                    border: 1px solid var(--gray-100, #E3E7EB);
+                    background: var(--primary-white, #FFF);
+                    
+
+                }
+            }
+        }
+    }
+
+    .recommendationPlace {
+        display: flex;
+        width: 732px;
+        padding: 36px 8px 116px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+        .recommedationContent {
+            width: 368.063px;
+            flex-shrink: 0;
+
+            p {
+                color: var(--gray-900, #141D24);
+                text-align: center;
+
+                /* S-24/Regular */
+                font-family: Inter;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+
+                /* 171.429% */
+                a {
+                    color: var(--gray-900, #141D24);
+
+                    /* S-24/Regular */
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-decoration-line: underline;
+                }
+            }
+        }
+    }
+
+}

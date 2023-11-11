@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.riseToTheTopContainer {
+    max-width: 90%;
+    margin: auto;
+
+    .riseToTheTopContent {
+        display: grid;
+        padding-bottom: 24px;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 8px;
+    }
+}

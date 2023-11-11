@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fonts-start */
+@font-face {
+    font-family: Inter;
+    src: url('../../../../assets/Fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* fonts-end */
+
+.joinUsContainer {
+    max-width: 45%;
+    margin: auto;
+
+    .joinUsContent {
+        padding: 120px 0px;
+        display: grid;
+        grid-template-rows: 1fr 0.6fr;
+        align-items: center;
+        gap: 40px;
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+
+            h1 {
+                color: var(--gray-900, #141D24);
+                text-align: center;
+
+                /* 4XL-40/Bold */
+                font-family: Inter;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 40px;
+                /* 125% */
+            }
+
+            p {
+                color: var(--gray-900, #141D24);
+                text-align: center;
+
+                /* M-24/Regular */
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                /* 150% */
+            }
+        }
+
+        .joinUsInputContentPlace {
+            display: flex;
+            justify-content: center;
+
+            .joinUsInputContent {
+                display: flex;
+                width: 392px;
+                padding: 8px 8px 8px 24px;
+                align-items: center;
+                gap: 48px;
+                border-radius: 99px;
+                border: 1px solid var(--gray-200, #C9D2DA);
+                background: var(--primary-white, #FFF);
+
+                input {
+                    color: var(--gray-300, #97A5B2);
+
+                    /* M-24/Regular */
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    border: none;
+                    /* 150% */
+
+                }
+
+                input:focus {
+                    outline: 0px;
+                }
+
+                a{
+                    text-decoration: none;
+                    button {
+                        display: flex;
+                        padding: 8px 16px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 8px;
+                        border-radius: 24px;
+                        background: var(--violet-500, #4A21EF);
+                        // font
+                        color: var(--primary-white, #FFF);
+                        border: none;
+    
+                        /* M-24/Semibold */
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 24px;
+                        cursor: pointer;
+                        /* 150% */
+                    }
+                }
+                
+            }
+
+        }
+
+    }
+}

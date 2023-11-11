@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fonts-start */
+@font-face {
+    font-family: Inter;
+    src: url('../../../../assets/Fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* fonts-end */
+
+/* section with bacground gif start */
+.introduction {
+    display: grid;
+}
+
+.introductionContainer {
+    max-width: 95%;
+    margin: auto;
+
+}
+
+.introductionContent {
+    position: relative;
+}
+
+.introductionTextContenttWithInput {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    
+}
+
+.introductionTextContenttWithInput .text {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.introductionTextContenttWithInput .text h1 {
+    color: var(--primary-white, #FFF);
+    text-align: center;
+    /* 7XL/Semibold */
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    /* 125% */
+}
+
+.introductionTextContenttWithInput .text p {
+    color: var(--primary-white, #FFF);
+    text-align: center;
+    /* M-24/Semibold */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+}
+
+.introductionContent img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.inputContentBody{
+    display: flex;
+    justify-content: center;
+}
+.inputContentPlace {
+    display: flex;
+    width: 392px;
+    padding: 8px 8px 8px 24px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 99px;
+    border: 1px solid var(--gray-200, #C9D2DA);
+    background: var(--primary-white, #FFF);
+}
+
+.inputContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.inputContent input {
+    color: var(--gray-300, #97A5B2);
+    width: 292px;
+    /* M-24/Regular */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    border: 0px solid var(--gray-200, #C9D2DA);
+    background: var(--primary-white, #FFF);
+    padding-left: 10px;
+}
+.inputContent input:focus{
+    outline: 0px;
+}
+.inputContent .searchIcon img {
+    width: 43px;
+    cursor: pointer;
+}
+
+
+
+/* section with bacground gif end */

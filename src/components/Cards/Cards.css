@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fonts-start */
+@font-face {
+    font-family: Inter;
+    src: url('../../assets/Fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* fonts-end */
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.cardImage {
+    position: relative;
+    
+}
+.cardImage img{
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.cardSaveIcon {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.cardBlueButton {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+
+}
+
+
+.blueButton {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 24px;
+    background: var(--violet-500, #4A21EF);
+    border: none;
+    cursor: pointer;
+}
+
+.blueButton p {
+    color: var(--primary-white, #FFF);
+
+    /* M-20/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 125% */
+}
+
+.cardText {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+    border-radius: 0px 0px 15px 15px;
+    border-right: 1px solid var(--gray-100, #E3E7EB);
+    border-bottom: 1px solid var(--gray-100, #E3E7EB);
+    border-left: 1px solid var(--gray-100, #E3E7EB);
+    background: var(--primary-white, #FFF);
+}
+
+.cardTitleUpperText {
+    display: flex;
+    width: 384px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.cardTitleUpperText h4 {
+    color: var(--gray-500, #5E6F7D);
+
+    /* XS/Medium */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 133.333% */
+}
+
+.cardTitleUpperText h1 {
+    color: var(--gray-900, #141D24);
+
+    /* M-20/Semibold */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 125% */
+}
+
+.cardTitleBottomText {
+    display: flex;
+    width: 384px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardTitleBottomText .dayContent {
+    color: var(--gray-500, #5E6F7D);
+
+    /* S-24/Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.cardTitleBottomText .priceContent {
+    display: flex;
+    gap: 4px;
+
+}
+
+.priceContent .cardFrom {
+    color: var(--gray-500, #5E6F7D);
+    text-align: right;
+
+    /* S-24/Regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+
+}
+
+.priceContent .cardPrice {
+    color: var(--gray-900, #141D24);
+    text-align: right;
+
+    /* M-24/Semibold */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+}

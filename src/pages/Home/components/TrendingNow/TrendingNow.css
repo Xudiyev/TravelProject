@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fonts-start */
+@font-face {
+    font-family: Inter;
+    src: url('../../../../assets/Fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* fonts-end */
+
+.trendingNowContainer {
+    max-width: 90%;
+    margin: auto;
+}
+
+.trendingNowContent {
+    display: grid;
+    padding: 120px 0px;
+    grid-template-rows: 0.1fr 1fr;
+    align-items: center;
+    gap: 40px;
+}
+
+.tNCHeading h1 {
+    color: var(--gray-900, #141D24);
+    text-align: center;
+    /* 5XL/Bold */
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 133.333% */
+}
+
+.tNCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    
+}

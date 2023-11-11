@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fonts-start */
+@font-face {
+    font-family: Inter;
+    src: url('../../../../assets/Fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* fonts-end */
+
+.whyUsContainer {
+    max-width: 90%;
+    margin: auto;
+}
+
+.whyUsContent {
+    display: grid;
+    padding-bottom: 120px;
+    grid-template-rows: 0.1fr 1fr;
+    align-items: center;
+    gap: 40px;
+}
+
+.whyUsHeading h1 {
+    color: var(--gray-900, #141D24);
+    text-align: center;
+    /* 5XL/Bold */
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 133.333% */
+}
+
+.whyUsCards  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.whyUscardBody {
+    display: flex;
+    width: 416px;
+    padding: 32px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 20px;
+    background: var(--gray-50, #F5F7FA);
+}
+.whyUscardBody p {
+    align-items: stretch;
+    color: var(--gray-900, #141D24);
+
+/* M-24/Semibold */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+}

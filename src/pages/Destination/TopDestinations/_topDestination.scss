@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fonts-start */
+@font-face {
+    font-family: Inter;
+    src: url('../../../assets/Fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* fonts-end */
+.topDestinationContainer {
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 120px;
+
+    h5 {
+        color: var(--gray-900, #141D24);
+        text-align: center;
+
+        /* 5XL/Bold */
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        /* 133.333% */
+        padding-bottom: 40px;
+    }
+
+    .topDestinationCards {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 40px;
+        justify-content: center;
+        .firstLineCards{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 24px;
+        }
+        .secondLineCards{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 24px;
+
+        }
+    }
+}

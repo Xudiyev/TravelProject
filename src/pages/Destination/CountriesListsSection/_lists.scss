@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fonts-start */
+@font-face {
+    font-family: Inter;
+    src: url('../../../assets/Fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* fonts-end */
+
+.ListContainer {
+    max-width: 75%;
+    margin: auto;
+    padding: 120px 0px;
+
+    .listPlace {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
+
+        .partsOfTheWorld {
+            width: 196px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            border-right: 1px solid var(--gray-100, #E3E7EB);
+
+            .partsOfTheWorldText {
+                color: var(--violet-500, #4A21EF);
+
+                /* 3XL-48/Bold */
+                font-family: Inter;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px;
+                /* 171.429% */
+            }
+
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+
+                li {
+                    color: var(--gray-900, #141D24);
+
+                    /* M-24/Medium */
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+                    list-style: none;
+                    /* 150% */
+
+                    a{
+                        text-decoration: none;
+                    color: var(--gray-900, #141D24);
+
+                    }
+                }
+            }
+
+
+        }
+
+        .southAmerica {
+            width: 196px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            .partsOfTheWorldText {
+                color: var(--violet-500, #4A21EF);
+
+                /* 3XL-48/Bold */
+                font-family: Inter;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px;
+                /* 171.429% */
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+
+                li {
+                    color: var(--gray-900, #141D24);
+
+                    /* M-24/Medium */
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+                    list-style: none;
+                    /* 150% */
+                }
+            }
+        }
+
+    }
+}

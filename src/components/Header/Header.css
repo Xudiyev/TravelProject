@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts-start */
+@font-face {
+    font-family: Inter;
+    src: url('../../assets/Fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* fonts-end */
+
+/* main Header content start */
+.mainHeader {
+    background-color: #F5F7FA;
+
+}
+
+.mainHeaderContainer {
+    max-width: 90%;
+    margin: auto;
+
+}
+
+.mainHeaderContent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    height: 48px;
+}
+
+
+
+.selectorButton {
+    display: flex;
+    justify-content: end;
+    padding: 8px 0px 8px 16px;
+    align-items: center;
+    gap: 8px;
+}
+
+.selectorButton p {
+    color: var(--violet-900, #0F0339);
+    /* M-24/Regular */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+/* main Header content end */
+
+/* secondfary header content start */
+.secondaryHeader {
+    padding: 21px 0px;
+}
+
+.secondaryHeaderContainer {
+    max-width: 90%;
+    margin: auto;
+}
+
+.secondaryHeaderContent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.secondaryMenuLinks {
+    display: flex;
+    align-items: center;
+    gap: 31.82px;
+
+}
+.secondaryMenuLinks a{
+    text-decoration: none;
+}
+
+.secondaryMenuLinks p {
+    color: var(--violet-900, #0F0339);
+    text-align: center;
+    /* M-24/Semibold */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+}
+.secondaryMenuLinks p a {
+    color: var(--violet-900, #0F0339);
+   
+}
+
+
+.headerLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+.feelingLuckyButton {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 24px;
+    background: var(--violet-500, #4A21EF);
+    border: none;
+    cursor: pointer;
+    /* font parametrs */
+    color: var(--primary-white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+
+.loginButton {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 24px;
+    border: 1px solid var(--violet-500, #4A21EF);
+    background: var(--primary-white, #FFF);
+    cursor: pointer;
+    /* font parametr */
+    color: var(--violet-500, #4A21EF);
+    /* M-24/Semibold */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+}
+
+/* secondary header content end */

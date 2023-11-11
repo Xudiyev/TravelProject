@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fonts-start */
+@font-face {
+    font-family: Inter;
+    src: url('../../../assets/Fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* fonts-end */
+.categoriesContainer {
+    max-width: 80%;
+    margin: auto;
+    display: grid;
+    padding: 72px 0px;
+    grid-template-columns: repeat(7, 1fr);
+
+    gap: 16px;
+
+
+    .allcategoriesBTN {
+        display: flex;
+        padding: 12px 24px;
+        flex-direction: column;
+        border-radius: 100px;
+        background: var(--violet-500, #4A21EF);
+        color: var(--primary-white, #FFF);
+        text-align: center;
+        border: 0px;
+        cursor: pointer;
+
+        /* M-24/Medium */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+    }
+
+    button {
+        display: flex;
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 100px;
+        background: var(--gray-50, #F5F7FA);    
+        border: 0px;
+        color: var(--gray-700, #3A4D5A);
+        text-align: center;
+       cursor: pointer;
+        /* M-24/Regular */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+    }
+}

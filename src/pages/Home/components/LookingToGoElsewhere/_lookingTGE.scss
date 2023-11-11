@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fonts-start */
+@font-face {
+    font-family: Inter;
+    src: url('../../../../assets/Fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* fonts-end */
+.lookingToGoElseWhereSection {
+    background: var(--violet-500, #4A21EF);
+
+    .lookingToGoContainer {
+        max-width: 45%;
+        margin: auto;
+
+        .lookingToGoContent {
+            padding: 72px 0px;
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            align-items: center;
+            gap: 24px;
+
+            .text h1 {
+                color: var(--primary-white, #FFF);
+                text-align: center;
+
+                /* XXL-40/Semibold */
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 40px;
+                /* 166.667% */
+            }
+
+            .buttonContent a {
+                text-decoration: none;
+
+                button {
+                    display: flex;
+                    padding: 12px 24px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8px;
+                    border-radius: 24px;
+                    background: var(--primary-white, #FFF);
+                    border: none;
+                    cursor: pointer;
+
+                    // text font in button
+                    color: var(--violet-500, #4A21EF);
+
+                    /* M-24/Semibold */
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 24px;
+                    /* 150% */
+                }
+            }
+
+
+
+        }
+    }
+}

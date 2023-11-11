@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fonts-start */
+@font-face {
+    font-family: Inter;
+    src: url('../../../assets/Fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* fonts-end */
+.blogCardsContainer {
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 120px;
+    display: grid;
+    gap: 24px;
+
+    .placeWithTwoCards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+
+
+        .foodDrinkCard {
+            display: flex;
+            width: 636px;
+            flex-direction: column;
+            align-items: flex-start;
+            flex-shrink: 0;
+
+            img {
+                display: flex;
+                width: 636px;
+                height: 230px;
+                align-items: flex-start;
+                border-radius: 20px 20px 0px 0px;
+            }
+
+            .foodDrinkText {
+                display: flex;
+                width: 636px;
+                padding: 16px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+                border-radius: 0px 0px 15px 15px;
+                border-right: 1px solid var(--gray-100, #E3E7EB);
+                border-bottom: 1px solid var(--gray-100, #E3E7EB);
+                border-left: 1px solid var(--gray-100, #E3E7EB);
+                background: var(--primary-white, #FFF);
+
+                .upperText {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 8px;
+                    align-self: stretch;
+
+                    h1 {
+                        color: var(--gray-900, #141D24);
+
+                        /* M-20/Semibold */
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 20px;
+                        /* 125% */
+                    }
+                }
+
+                .lowerText {
+                    display: flex;
+                    height: 60px;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 8px;
+                    align-self: stretch;
+
+
+                    p {
+                        width: 384px;
+                        height: 60px;
+                        flex-shrink: 0;
+                        overflow: hidden;
+                        color: var(--gray-900, #141D24);
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+
+                        /* M-24/Regular */
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        /* 150% */
+                    }
+                }
+
+
+            }
+        }
+
+        .seeDoCard {
+            display: flex;
+            width: 636px;
+            flex-direction: column;
+            align-items: flex-start;
+            flex-shrink: 0;
+
+            img {
+                display: flex;
+                width: 636px;
+                height: 230px;
+                align-items: flex-start;
+                border-radius: 20px 20px 0px 0px;
+            }
+
+            .seeDoText {
+                display: flex;
+                width: 636px;
+                padding: 16px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+                border-radius: 0px 0px 15px 15px;
+                border-right: 1px solid var(--gray-100, #E3E7EB);
+                border-bottom: 1px solid var(--gray-100, #E3E7EB);
+                border-left: 1px solid var(--gray-100, #E3E7EB);
+                background: var(--primary-white, #FFF);
+
+                .upperText {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 8px;
+                    align-self: stretch;
+
+                    h1 {
+                        color: var(--gray-900, #141D24);
+
+                        /* M-20/Semibold */
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 20px;
+                        /* 125% */
+                    }
+                }
+
+                .lowerText {
+                    display: flex;
+                    height: 60px;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 8px;
+                    align-self: stretch;
+
+
+                    p {
+                        width: 384px;
+                        height: 60px;
+                        flex-shrink: 0;
+                        overflow: hidden;
+                        color: var(--gray-900, #141D24);
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+
+                        /* M-24/Regular */
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        /* 150% */
+                    }
+                }
+
+
+            }
+
+        }
+    }
+
+    .placeWiththreeCards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        .cardPlace {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .threeCardTextContent {
+                display: flex;
+                padding: 16px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+                border-radius: 0px 0px 15px 15px;
+                border-right: 1px solid var(--gray-100, #E3E7EB);
+                border-bottom: 1px solid var(--gray-100, #E3E7EB);
+                border-left: 1px solid var(--gray-100, #E3E7EB);
+                background: var(--primary-white, #FFF);
+
+
+                .cardUpperText {
+                    display: flex;
+                    width: 384px;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 8px;
+
+                    h2 {
+                        width: 296px;
+                        color: var(--gray-900, #141D24);
+
+                        /* M-20/Semibold */
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 20px;
+                        /* 125% */
+                    }
+                }
+
+                .cardLowerText {
+                    display: flex;
+                    width: 384px;
+                    height: 60px;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 8px;
+
+                    p {
+                        width: 384px;
+                        height: 60px;
+                        flex-shrink: 0;
+                        overflow: hidden;
+                        color: var(--gray-900, #141D24);
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+
+                        /* M-24/Regular */
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        /* 150% */
+                    }
+                }
+            }
+        }
+    }
+}
