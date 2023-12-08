@@ -44,3 +44,10 @@
         }
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .asiaCards {
+        overflow-x: auto;
+
+    }
+}

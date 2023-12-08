@@ -68,6 +68,9 @@ export default function Footer() {
               </a>
             </ul>
           </div>
+          <div className='CopyrightContentInMobile'>
+              <p className='Copyright' >© Copyright 2023 Tourista Ltd. All Rights Reserved.</p>
+            </div>
         </div>
       </div>
     </div>

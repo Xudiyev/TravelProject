@@ -156,4 +156,41 @@
     /* 150% */
 }
 
+/* HAMBURGER */
+.hamburgerMenuInMobile{
+    display: none;
+}
+.profileLogInInMobile{
+    display: none;
+}
 /* secondary header content end */
+
+
+/* responsive header start */
+@media only screen and (max-width: 500px) {
+    .secondaryHeaderContent {
+        align-items: center;
+    }
+    
+    .mainHeader{
+        display: none;
+    }
+
+    .secondaryMenuLinks{
+        display: none;
+    }
+    .buttons{
+        display: none;
+    }
+
+    .hamburgerMenuInMobile{
+        display: block;
+    }
+
+    .profileLogInInMobile{
+        display: block;
+        justify-self: end;
+    }
+}
+
+

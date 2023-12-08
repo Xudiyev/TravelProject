@@ -40,7 +40,7 @@
     align-items: center;
     gap: 60px;
 
-    
+
 }
 
 .introductionTextContenttWithInput .text {
@@ -79,10 +79,11 @@
     border-radius: 20px;
 }
 
-.inputContentBody{
+.inputContentBody {
     display: flex;
     justify-content: center;
 }
+
 .inputContentPlace {
     display: flex;
     width: 392px;
@@ -116,9 +117,11 @@
     background: var(--primary-white, #FFF);
     padding-left: 10px;
 }
-.inputContent input:focus{
+
+.inputContent input:focus {
     outline: 0px;
 }
+
 .inputContent .searchIcon img {
     width: 43px;
     cursor: pointer;
@@ -127,3 +130,51 @@
 
 
 /* section with bacground gif end */
+
+
+
+/* responsive header start */
+@media only screen and (max-width: 500px) {
+    .introductionTextContenttWithInput {
+        grid-template-rows: repeat(2, 0.5fr);
+    }
+
+    .introductionTextContenttWithInput {
+        gap: 15px;
+    }
+
+    .introductionTextContenttWithInput .text h1 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+        /* 166.667% */
+    }
+
+    .introductionTextContenttWithInput .text p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .inputContentPlace {
+        width: 300px;
+    }
+
+    .inputContent {
+        gap: 0px;
+    }
+
+
+    .introductionContent img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .inputContent input {
+        width: 225px;
+    }
+
+    
+}

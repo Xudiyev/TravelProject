@@ -12,7 +12,7 @@
 }
 
 /* fonts-end */
-.leftsideWithImage{
+.leftsideWithImage {
     background-image: url('../Images/LeftSideImage.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,7 +224,7 @@
     }
 
 
-    .logInPlaceWithApp{
+    .logInPlaceWithApp {
         display: flex;
         width: 732px;
         padding: 36px 8px;
@@ -237,11 +237,11 @@
             flex-direction: column;
             align-items: center;
             gap: 40px;
-        
-    
+
+
             p {
                 color: var(--gray-300, #97A5B2);
-    
+
                 /* S-24/Regular */
                 font-family: Inter;
                 font-size: 14px;
@@ -250,12 +250,12 @@
                 line-height: 24px;
                 /* 171.429% */
             }
-    
+
             .applicationsContent {
                 display: flex;
                 align-items: flex-start;
                 gap: 16px;
-    
+
                 button {
                     display: flex;
                     width: 160px;
@@ -267,12 +267,12 @@
                     border: 1px solid var(--gray-100, #E3E7EB);
                     background: var(--primary-white, #FFF);
                     cursor: pointer;
-    
+
                 }
             }
         }
     }
-   
+
 
     .createAccount {
         display: flex;
@@ -304,5 +304,58 @@
             line-height: 24px;
             text-decoration: none;
         }
+    }
+}
+
+/* responsive header start */
+@media only screen and (max-width: 500px) {
+    .logInPageContent {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .rightSideWIthLogInContent .rightSideLogo {
+        padding: 30px 0px;
+    }
+
+    .rightSideWIthLogInContent .rightSideEmailAndPasswordContent {
+        padding: 40px 30px
+    }
+
+    .rightSideWIthLogInContent .logInPlaceWithApp .logInWithApp .applicationsContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .rightSideWIthLogInContent .logInPlaceWithApp .logInWithApp .applicationsContent button {
+        width: 330px;
+    }
+    .rightSideWIthLogInContent .rightSideEmailAndPasswordContent .rightSideLogInPLace {
+        width: 330px;
+    }
+    .rightSideWIthLogInContent .rightSideEmailAndPasswordContent .rightSideLogInPLace form .emailInputContent {
+        width: 330px;
+    }
+    .rightSideWIthLogInContent .rightSideEmailAndPasswordContent .rightSideLogInPLace form .passwordContent .inptIconContent {
+        width: 330px;
+    }
+    .rightSideWIthLogInContent .rightSideEmailAndPasswordContent .rightSideLogInPLace form .forgetPasswordLink {
+        width: 330px;
+    }
+    .rightSideWIthLogInContent .rightSideEmailAndPasswordContent .rightSideLogInPLace form button {
+        width: 330px;
+    }
+    .rightSideWIthLogInContent .rightSideEmailAndPasswordContent .rightSideLogInPLace h1 {
+        color: var(--gray-900, #141D24);
+
+        /* XL-32/Bold */
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        /* 160% */
     }
 }

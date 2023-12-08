@@ -40,4 +40,26 @@
 .ourLocalExpertsImages img{
 width: 100%;
 }
+.imageInMobile{
+    display: none;
+}
 
+/* responsive ourLocalExperts start */
+@media only screen and (max-width: 500px) {
+
+
+    .whyUsCards {
+        display: grid;
+        grid-template-columns: 1fr!important;
+        gap: 24px;
+    }
+    .whyUsContent{
+        padding: 30px 0px;
+    }
+    .imageInWeb{
+        display: none;
+    }
+    .imageInMobile{
+        display: block;
+    }
+}

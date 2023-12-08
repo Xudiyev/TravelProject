@@ -175,3 +175,25 @@
 
 
 }
+
+/* responsive header start */
+@media only screen and (max-width: 500px) {
+
+    .sectionWithNature .sectionWithNatureContainer .sectionWithNatureContent {
+        display: grid;
+        grid-template-rows: 1fr 0.5fr;
+        align-items: flex-start;
+        gap: 12px;
+        position: absolute;
+        right: 42px;
+        bottom: 52px;
+    }
+
+    .sectionWithNature .sectionWithNatureContainer .sectionWithNatureContent .reviewTextContent {
+        width: 320px;
+    }
+    .sectionWithNature .sectionWithNatureContainer .sectionWithNatureContent .localExpertInfoContent {
+        width: 320px;
+    }
+   
+}

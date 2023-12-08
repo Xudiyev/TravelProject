@@ -1,5 +1,7 @@
 import './OurLocalExperts.css'
 import fullImage from './OurLocalExpertsImages/FullImage.png'
+import FullImageInmobile from './OurLocalExpertsImages/FullImageInmobile.png'
+
 // import TravelMapIcon from './WhyUsImage/TravelMapIcon.svg'
 // import BagsIcon from './WhyUsImage/BagsIcon.svg'
 // import HumanIcon from './WhyUsImage/HumanIcon.svg'
@@ -14,7 +16,9 @@ export default function OurLocalExperts() {
                         <h1>Our Local Experts</h1>
                     </div>
                     <div className='ourLocalExpertsImages'>
-                        <img src={fullImage} alt="" />
+                        <img className='imageInWeb' src={fullImage} alt="" />
+                        <img className='imageInMobile'  src={FullImageInmobile} alt="" />
+
                     </div>
 
                 </div>

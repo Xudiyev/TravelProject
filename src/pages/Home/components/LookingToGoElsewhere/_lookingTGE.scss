@@ -71,3 +71,22 @@
         }
     }
 }
+
+/* responsive header start */
+@media only screen and (max-width: 500px) {
+    .lookingToGoElseWhereSection .lookingToGoContainer .lookingToGoContent {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .lookingToGoElseWhereSection .lookingToGoContainer {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .buttonContent {
+        display: flex;
+        justify-content: center;
+    }
+}
