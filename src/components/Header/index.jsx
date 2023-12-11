@@ -1,4 +1,5 @@
 import './Header.css'
+
 import logo from '../../assets/HeaderImageFolder/Logo.svg'
 import selector from '../../assets/HeaderImageFolder/Unfold_More.svg'
 import humanImgForLogIn from '../Header/imageInMobile/Profile.svg'
@@ -7,19 +8,16 @@ import hamburgerMenuInMobile from '../Header/imageInMobile/Hamburger_MD.svg'
 import { Nav } from '../Navs'
 import { Link } from 'react-router-dom'
 import HamburgerMenu from '../HamburgerMenu'
-
-
-// import { useState } from 'react'
-// const [hamburgerOpen,setHamburgerOpen] = useState(false);
-// const toggleHamburger = ()=>{
-//   setHamburgerOpen(!hamburgerOpen)
-// }
-
-
+import { useState } from 'react'
 
 
 
 export default function Header() {
+
+  const [hamburgerOpen,setHamburgerOpen] = useState(false);
+  const toggleHamburger = ()=>{
+    setHamburgerOpen(!hamburgerOpen)
+  }
   return <header className="headerContent">
     <div className="mainHeader" >
       <div className='mainHeaderContainer'>
@@ -47,7 +45,7 @@ export default function Header() {
           </div>
           <div className='hamburgerMenuInMobile' >
             <img 
-            // onClick={toggleHamburger}
+            onClick={toggleHamburger}
              src={hamburgerMenuInMobile} alt="" />
 
           </div>
